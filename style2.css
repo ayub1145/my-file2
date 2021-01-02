@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{margin:0;padding:0}
+body{
+	font-family:aril;
+	font-size:16px;
+	line-height:25px;
+}
+
+section{
+	padding:70px 0px;
+}
+img {
+	max-width:100%;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+	
+}
+#primaryHeader {
+    background: linear-gradient(#0000009e,#000000a6),url(image/a11.jpg);
+    background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+}
+.topHeader {
+    display:table;
+    margin-bottom: 150px;
+}
+.logo {
+    width: 300px;
+    float: left;
+    margin-top: 55px;
+}
+.princypal_Menu{
+	width: 869px;
+	float:right;
+	display:table;
+	margin-top: 24px;
+}
+.menu {
+    width: 550px;
+    float: left;
+    margin-top: 25px;
+	margin-left: 105px;
+}
+#sub_Menu:before {
+    content: "";
+    position: absolute;
+    border-right: 15px solid #ffffff;
+    border-bottom: 16px solid #c6242400;
+    margin-left: 17px;
+    margin-top: -4px;
+    transform: rotate(-47deg);
+}
+
+#sub_Menu {
+    width: 130px;
+    list-style: none;
+    background: white;
+    margin-top: 15px;
+    position: absolute;
+	display:none;
+	border-radius:5px;
+}
+.fas fa-caret-down{
+	font-size:14px;
+	margin-left:5px;
+}
+#sub_Menu li {
+    float: none;
+    padding: 5px 7px;
+    transition: 1s;
+}
+#sub_Menu li a{
+	font-weight:500;
+	font-size:15px;
+	color:black;
+	transition: 1s;
+}
+ #sub_Menu li:hover {
+	background:orange;
+	color:white;
+	border-radius: 5px;
+
+}
+.second_Menu {
+    width: 150px;
+    float: right;
+    margin-top: 36px;
+}
+.second_Menu a i {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: gray;
+    color: #d9cfcf;
+    display: grid;
+    place-items: center;
+    float: left;
+    margin-right: 15px;
+}
+.logo i {
+    font-size: 30px;
+    color: orange;
+    float: left;
+}
+.logo h2 {
+    font-size: 30px;
+    color: orange;
+    float: left;
+}
+.logo h1 {
+	font-size:30px;
+	color:white;
+	float:right;
+}
+.primaryMenu{
+	list-style:none;
+}
+.primaryMenu li{
+	float:left;
+	padding:10px;
+	position:relative;
+} 
+.primaryMenu li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+	transition:0.5s;
+}
+.primaryMenu li a:hover{
+	color:orange;
+}
+.discription {
+    width: 600px;
+    margin-bottom: 55px;
+}
+.discription h1 {
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+	margin-bottom: 20px;
+}
+.discription span{
+	color:white;
+}
+.button {
+	margin-bottom:30px;
+}
+.button button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    background: orange;
+    border: none;
+    margin-bottom: 100px;
+	transition:0.5s;
+}
+.button button:hover{
+	background:black;
+	color:white;
+}
+#primaryBuild {
+	background:#f9f9f9;
+}
+.container {
+	width:1170px;
+	margin:auto;
+}
+.buildContent{
+	width:700px;
+	margin:auto;
+	text-align:center;
+	top:15px;
+}
+.buildContent h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    padding-top: 55px;
+}
+.buildContent span{
+	font-size: 16px;
+	margin-bottom:15px;
+}
+.buildBoxes {
+	overflow:hidden;
+	height:400px;
+}
+.singelBox {
+	padding: 18px 0px;
+    width: 370px;
+    background: white;
+    text-align: center;
+    margin-right: 17px;
+    margin-top: 75px;
+    display:inline-block;
+	box-shadow: 0px 5px 13px -6px;
+}
+.boxIcon {
+    font-size: 45px;
+    margin-bottom: 18px;
+    margin-top: 5px;
+}
+.boxIcon i {
+	color:orange;
+}
+.singelBox h1 {
+	font-size: 33px;
+	margin-bottom:15px;
+	font-weight: 400;
+}
+.singelBox p {
+	font-size:16px;
+	line-height:26px;
+	margin-bottom:20px;
+	font-weight: 00;
+}
+.singelBox a{
+	text-decoration:none;
+	color:orange;
+	font-size: 18px;
+	transition:0.5s;
+}
+.singelBox a:hover{
+	color:tomato;
+	
+}
+.ideaSection{
+	height:500px;
+}
+
+.scndIdea {
+	overflow:hidden;
+}
+.ideaImage{
+	width:550px;
+	float:left;
+}
+.ideaDesc{
+	width:550px;
+	float:right;
+}
+.ideaDesc h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 37px;
+    line-height: 53px;
+}
+.ideaDesc p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 38px;
+    font-weight: 65;
+}
+.ideaButton{
+    margin-top: 58px;
+}
+
+.ideaButton button {
+    font-size: 15px;
+    padding: 15px 32px;
+    background: orange;
+    border: none;
+    border-radius: 3px;
+	transition:0.5s;
+}
+.ideaButton button:hover {
+	background:black;
+	color:white;
+}
+#traffic {
+	background:#2a2121;
+	color:white;
+}
+.single_traffic_Box {
+    width: 280px;
+    padding: 4px;
+    text-align: center;
+	display:inline-block;
+}
+.troffiIcon {
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: orange;
+}
+.single_traffic_Box h1 {
+    font-size: 45px;
+    font-family: arial black;
+    margin-bottom: 10px;
+	
+}
+.projectContent {
+	width:700px;
+	margin:auto;
+	text-align:center;
+}
+.projectContent h1{
+	font-size:40px;
+	font-weight:600;
+	margin-bottom:25px;
+}
+.projectContent span{
+	font-size:16px;
+	line-height:25px;
+	font-weight:500;
+}
+.Buttons {
+	width:700px;
+	margin:auto;
+	text-align:center;
+}
+.firstButton {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+	transition:.5s;
+}
+.firstButton:hover{
+	background:orange;
+	color:white;
+}
+.project_Content_Button :first-child{
+	background:orange;
+	color:white;
+}
+.product {
+    width: 367px;
+    display: inline-block;
+    padding: 10px;
+}
+.project_Content_Button {
+	width:700px;
+	margin:auto;
+	text-align:center;
+}
+#client_Comment {
+    background: linear-gradient(#00000085,#000000cf),url(image/a9.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.clienDesc {
+	width:700px;
+	margin:auto;
+	text-align:center;
+}
+.client_Image {
+    margin-top: 43px;
+    border-radius: 100px;
+    margin-bottom: 5px;
+}
+.client_Image img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid white;
+    border-radius: 100%;
+}
+.clienDesc h3{
+	font-size:16px;
+	color:orange;
+}
+.clienDesc span{
+	color:white;
+}
+.clienDesc h1 {
+    font-size: 36px;
+    color: white;
+    line-height: 45px;
+    font-weight: 500;
+	margin-top: 25px;
+}
+.partnerDesc{
+	width:700px;
+	margin:auto;
+	text-align:center;
+	margin-bottom:20px;
+}
+.partnerDesc h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.partnerDesc span {
+    font-size: 17px;
+    font-weight: 400;
+}
+.partner_single_box {
+    width: 170px;
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #dbd1d1;
+    text-align: center;
+}
+.partner_single_box i {
+    font-size: 72px;
+    color: #c6c6c6;
+	transition:0.5s;
+}
+.partner_single_box i:hover {
+    color: orange;
+}
+.partner_single_box:last-child{
+	border:none;
+}
+#footer_content{
+	background: linear-gradient(#00000085,#000000cf),url(image/a9.jpg);
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+.grid {
+    height: 200px;
+    border-bottom: 1px solid #7e6f6f;
+}
+.grid_forms1 {
+    width: 500px;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 600;
+    float: left;
+	color:white;
+}
+.grid_forms2 {
+    padding: 17px 70px;
+    float: right;
+}
+.grid_forms2 input {
+    font-size: 15px;
+    padding: 15px 70px;
+    border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.grid_forms2 button {
+    font-size: 15px;
+    background: #ffa724;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 600;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+	transition:1s;
+}
+.grid_forms2 button:hover{
+	background:black;
+	color:white;
+}
+.About_us {
+    height: 358px;
+    border-bottom: 1px solid #7e6f6f;
+}
+.AboutUs {
+    width: 400px;
+    float: left;
+    margin-top: 33px;
+}
+.AboutUs h1 {
+    color: white;
+    font-size: 21px;
+    margin: 21px 0px;
+}
+.AboutUs span {
+    color: #cecece;
+    font-size: 19px;
+}
+
+.AboutUs a i {
+    width: 35px;
+    height: 35px;
+    font-size: 13px;
+    color: #36342f;
+    border-radius: 100%;
+    background: #edae3b;
+    display: grid;
+    place-items: center;
+	float:left;
+	margin-right: 10px;
+}
+.fa-facebook-f,.fa-twitter,.fa-instagram,.fa-google-plus-g,.fa-linkedin-in{transition:0.5s;}
+.fa-facebook-f i:hover{background:#2422a3;color:white;}
+.fa-twitter i:hover{background:#00bcd4;color:white;}
+.fa-instagram i:hover{background:#dd3399;color:white;}
+.fa-google-plus-g i:hover{background:#d7362b;color:white;}
+.fa-linkedin-in i:hover{background:#077bb0;color:white;}
+
+.Useful_Links {
+    width: 170px;
+    float: left;
+    margin-top: 35px;
+    float:left;
+}
+.Useful_Links h1{
+    color: white;
+    font-size: 21px;
+	margin: 21px 0px;
+}
+.Useful_Links ul {
+    list-style: none;
+    margin-top: -6px;
+}
+.Useful_Links ul li a {
+    text-decoration: none;
+    color: #bcbcbc;
+    font-size: 18px;
+    line-height: 40px;
+	transition:0.5s;
+}
+.Useful_Links ul li a:hover{
+	color:orange;
+}
+.Recent_Projects {
+    width: 480px;
+    float: left;
+    margin-top: 35px;
+    overflow: hidden;
+}
+.Recent_Projects h1 {
+    color: white;
+    font-size: 21px;
+    margin: 21px 21px;
+}
+
+.Image_container{
+	width:450px;
+	float:left;
+}
+.Images {
+    width: 90px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 9px;
+}
+.Images img{
+	width:90px;
+	border-radius:5px;
+}
+.Images_desc {
+    width: 323px;
+    float: right;
+    margin-left: 11px;
+}
+.Images_desc h3 {
+    width: 225px;
+    margin-bottom: 18px;
+}
+.Images_desc a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #b8b5b5;
+    line-height: 28px;
+	transition:0.5s;
+}
+.Images_desc a:hover{
+	color:orange;
+}
+.Quick_Links {
+    margin-top: 60px;
+    width: 120px;
+    float: left;
+}
+.Quick_Links h1 {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 14px;
+}
+.Quick_Links ul{
+	list-style:none;
+	
+}
+.Quick_Links ul li a {
+    font-size: 16px;
+    color: #c6c6c6;
+    text-decoration: none;
+    line-height: 40px;
+}
+.Quick_Links ul li a:hover{
+	color:orange;
+}
+.footer h3 {
+    color: #aeabab;
+    float: left;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+.building{
+	width:600px;
+	margin:auto;
+	text-align:center;
+}
